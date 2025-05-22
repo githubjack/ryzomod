@@ -5,52 +5,62 @@
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="viewport" content="width=device-width, initial-scale=1,  viewport-fit=cover" />
-<title>StickyMobile BootStrap</title>
+<title>Ryzosens</title>
 <link rel="stylesheet" type="text/css" href="styles/bootstrap.css">
 <link rel="stylesheet" type="text/css" href="styles/style.css">
-<link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i|Source+Sans+Pro:300,300i,400,400i,600,600i,700,700i,900,900i&display=swap" rel="stylesheet">
-<link rel="stylesheet" type="text/css" href="theme/fonts/css/fontawesome-all.min.css">    
+<!-- <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i|Source+Sans+Pro:300,300i,400,400i,600,600i,700,700i,900,900i&display=swap" rel="stylesheet"> -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="fonts/css/fontawesome-all.min.css">    
 <link rel="manifest" href="_manifest.json" data-pwa-version="set_in_manifest_and_pwa_js">
 <link rel="apple-touch-icon" sizes="180x180" href="theme/app/icons/icon-192x192.png">
 </head>
     
-<body class="theme-dark" data-highlight="highlight-red" data-background="dark">
+<body class="theme-dark" data-highlight="highlight-yellow" data-background="dark">
     
 <div id="preloader"><div class="spinner-border color-highlight" role="status"></div></div>
     
 <div id="page">
     <div id="header" class="header header-fixed header-logo-left">
-        <a href="#" class="header-title">Sticky Mobile</a>
-        <a href="#" class="header-icon header-icon-1"><i class="fa fa-cog"></i></a>
-        <a href="#" class="header-icon header-icon-2"><i class="fa fa-search"></i></a>
+        <a href="#" class="header-title"><img src="./images/ryzosens-logo.png" width="190" alt="logo" /></a>
+        <a href="#" class="header-icon header-icon-1" title="icon"><i class="fa fa-cog"></i></a>
+        <a href="#" class="header-icon header-icon-2" title="icon"><i class="fa fa-search"></i></a>
         </div>
     <div id="footer-bar" class="footer-bar-1">
-        <a href="index.html" class="active-nav"><i class="fa fa-home"></i><span>Home</span></a>
-        <a href="water.html"><i class="fa fa-star"></i><span>Water</span></a>
-        <a href="power.html"><i class="fa fa-heart"></i><span>Power</span></a>
-        <a href="alerts.html"><i class="fa fa-search"></i><span>Alerts</span></a>
+        <a href="index.html" class="active-nav"><i class="fa-solid fa-house"></i><span>Home</span></a>
+        <a href="water.html"><i class="fa-solid fa-water"></i><span>Water</span></a>
+        <a href="power.html"><i class="fa-solid fa-plug"></i><span>Power</span></a>
+        <a href="alerts.html"><i class="fa-solid fa-bell"></i><span>Alerts</span></a>
     </div>
         
-    <div class="page-content header-clear-small">
+    <div class="page-content header-clear-large">
 
         
-        <div class="card card-center card-style">
+        <div class="card card-top card-style card-pattern">
     
             <div class="row">
                 <div class="col-12 text-center">
                     <div class="content pt-3">
-                        <i class="fa fa-trophy color-yellow-dark fa-3x"></i>
-                        <h2 class="mt-3 mb-1">Future Proof</h2>
-                        <p>Built to last, with the latest quality code</p>
+                        <div class="content-data">
+                            <i class="fa-solid fa-water color-aqua-dark fa-3x"></i>
+                            <h2 class="color-highlight">Water</h2>
+                            <p>consumption</p>
+                            <div>Icon + text</div>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-12 text-center">
                     <div class="content pt-3">
-                        <i class="fab fa-cloudscale color-highlight fa-3x"></i>
-                        <h2 class="mt-3 mb-1">Powerful</h2>
-                        <p>Speed, Features and Flexibility all in One!</p>
+                        <div class="content-data">
+                            <i class="fa-solid fa-plug color-blue-dark fa-3x"></i>
+                            <h2 class="color-highlight">Power</h2>
+                             <p>usage</p>
+                             <div>Icon + text</div>
+                        </div>
+          
                     </div>
                 </div>
             </div>
@@ -82,7 +92,7 @@
     <!-- End of Page Content--> 
     <!-- All Menus, Action Sheets, Modals, Notifications, Toasts, Snackbars get Placed outside the <div class="page-content"> -->
     <div id="menu-settings" class="menu menu-box-bottom menu-box-detached">
-        <div class="menu-title mt-0 pt-0"><h1>Settings</h1><p class="color-highlight">Flexible and Easy to Use</p><a href="#" class="close-menu"><i class="fa fa-times"></i></a></div>
+        <div class="menu-title mt-0 pt-0"><h1>Settings</h1><p class="color-highlight">Flexible and Easy to Use</p><a href="#" class="close-menu" title="icon"><i class="fa fa-times"></i></a></div>
         <div class="divider divider-margins mb-n2"></div>
         <div class="content">
             <div class="list-group list-custom-small">
@@ -116,7 +126,7 @@
     </div>
     <!-- Menu Settings Highlights-->
     <div id="menu-highlights" class="menu menu-box-bottom menu-box-detached">
-        <div class="menu-title"><h1>Highlights</h1><p class="color-highlight">Any Element can have a Highlight Color</p><a href="#" class="close-menu"><i class="fa fa-times"></i></a></div>
+        <div class="menu-title"><h1>Highlights</h1><p class="color-highlight">Any Element can have a Highlight Color</p><a href="#" class="close-menu" title="icon"><i class="fa fa-times"></i></a></div>
         <div class="divider divider-margins mb-n2"></div>
         <div class="content">
             <div class="highlight-changer">
@@ -142,7 +152,7 @@
     </div>    
     <!-- Menu Settings Backgrounds-->
     <div id="menu-backgrounds" class="menu menu-box-bottom menu-box-detached">
-        <div class="menu-title"><h1>Backgrounds</h1><p class="color-highlight">Change Page Color Behind Content Boxes</p><a href="#" class="close-menu"><i class="fa fa-times"></i></a></div>
+        <div class="menu-title"><h1>Backgrounds</h1><p class="color-highlight">Change Page Color Behind Content Boxes</p><a href="#" class="close-menu" title="icon"><i class="fa fa-times"></i></a></div>
         <div class="divider divider-margins mb-n2"></div>
         <div class="content">
             <div class="background-changer">
